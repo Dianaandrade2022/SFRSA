@@ -1,0 +1,21 @@
+@import url("./login.css");
+input {
+  margin-block: 10px;
+}
+
+div.transbox2 {
+  margin-left: 35%;
+  background-color: red;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+div.transbox2 > a {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=register-user.component.css.map */

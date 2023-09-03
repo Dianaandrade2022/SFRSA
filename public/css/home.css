@@ -1,0 +1,270 @@
+@charset "UTF-8";
+.card {
+  border-radius: 8px;
+  background-color: white;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 4px #dc3545;
+  border: none;
+  max-width: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.this {
+  box-shadow: 0px -5px 0px 5px #dc3545;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+input:focus {
+  box-shadow: 0px 0px 4px blue;
+}
+
+.this:hover {
+  box-shadow: 0px -5px 0px 5px #bb2d3b;
+}
+
+.content {
+  padding-inline: 5px;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  align-content: left;
+  border-radius: 5px;
+  border-bottom: 4px solid #dc3545;
+}
+
+.img-logo {
+  width: 100px;
+  padding-block: 10px;
+  margin-inline: auto;
+}
+
+.texto {
+  flex: 2;
+  padding: 10px;
+  text-align: left;
+}
+
+.button-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button-section button {
+  background-color: transparent;
+  border: 2px solid #dc3545;
+  border-radius: 4px;
+  color: #dc3545;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.big-button {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.row{
+    display: inline-flex;
+}
+.card {
+  border-radius: 8px;
+  background-color: white;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 4px #dc3545;
+  border: none;
+  max-width: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.this {
+  box-shadow: 0px -5px 0px 5px #dc3545;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+input:focus {
+  box-shadow: 0px 0px 4px blue;
+}
+
+.this:hover {
+  box-shadow: 0px -5px 0px 5px #bb2d3b;
+}
+
+.content {
+  padding-inline: 5px;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  align-content: left;
+  border-radius: 5px;
+  border-bottom: 4px solid #dc3545;
+}
+
+.img-logo {
+  width: 100px;
+  padding-block: 10px;
+  margin-inline: auto;
+}
+
+.texto {
+  flex: 2;
+  padding: 10px;
+  text-align: left;
+}
+
+.button-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button-section button {
+  background-color: transparent;
+  border: 2px solid #dc3545;
+  border-radius: 4px;
+  color: #dc3545;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.big-button {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+input {
+  outline: none;
+  padding: 8px;
+  border: 1px solid rgba(102, 51, 51, 0.2);
+  border-radius: 4px;
+  font-size: 16px;
+  width: 70%;
+  margin-inline: 10%;
+  align-self: center;
+  background-color: rgba(144, 144, 144, 0.452);
+  text-shadow: 0px 0px 1px gray;
+}
+
+.logo {
+  width: 65%;
+  height: 15%;
+  margin: 0 auto 10px; /* Centrar la imagen y añadir espacio debajo */
+  display: block; /* Para que la imagen se comporte como bloque y se pueda centrar con margin */
+}
+
+.registro h3, input {
+  text-align: left;
+  width: 85%;
+}
+
+.registro {
+  background-color: red;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.row.py-2 {
+  margin: 10px;
+  border: solid red 2px;
+  border-radius: 8px;
+  box-shadow: 3px 1px 4px 1px red;
+}
+
+.col-lg-6:nth-child(2) {
+  height: 90vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-lg-6:nth-child(1) {
+  margin-block: auto;
+  text-align: center;
+}
+
+.image-section {
+  padding-top: 50%;
+  background-image: url("../../../../assets/img/sanferempresa.png");
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.login-form button {
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 15px; /* Ajustar este valor para reducir el espacio entre los campos */
+  font-size: 16px;
+  width: 40%;
+  align-self: center;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form h1, h4, h5 {
+  text-align: center;
+}
+
+div.transbox {
+  margin-left: 35%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+div.transbox > a {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=home.component.css.map */
+
+img.nohay{
+    height: 50vh;
+    width: fit-content;
+    margin-inline: auto;
+}
+h3.nohay{
+    color: tomato;
+}
